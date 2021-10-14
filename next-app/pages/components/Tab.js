@@ -11,22 +11,22 @@ function Tab () {
         <div className={style.naNav}>
            <nav className={style.nav}>
                <div  className={style.naOnglet}><Category className={style.cat}/><a href='#'>All Projects</a> </div>
-               <div><ChevronRight/></div>
+               <div><ChevronRight className={style.iconChevronRigth}/></div>
                
             </nav>
             <nav className={style.nav}>
                <div className={style.naOnglet}><Filter className={style.cat}/><a href='#'>Pinneds</a> </div>
-               <div><ChevronRight/></div>
+               <div><ChevronRight className={style.iconChevronRigth}/></div>
                
             </nav>
             <nav className={style.nav}>
                <div className={style.naOnglet}><Graph className={style.cat}/> <a href='#'>In process</a></div>
-               <div><ChevronRight/></div>
+               <div><ChevronRight className={style.iconChevronRigth}/></div>
                
             </nav>
             <nav className={style.nav}>
                <div className={style.naOnglet}><ShieldDone className={style.cat}/> <a href='#'>Done</a></div>
-               <div><ChevronRight/></div>
+               <div><ChevronRight className={style.iconChevronRigth}/></div>
                
             </nav>
         </div>

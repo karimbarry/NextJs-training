@@ -1,5 +1,5 @@
 .naTab{
-    width: 390px;
+    width: 330px;
     background-color: #FFFF;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
 }
 .h1 {
     height: 35px;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 .naTabElt{
     height: 100px;
@@ -15,14 +15,14 @@
     align-items: center;
 }
 .naAdd {
-    height: 32px;
-    width: 32px;
-    margin-left: 70px;
+    height: 28px;
+    width: 28px;
+    margin-left: 110px;
     border-radius: 50%;
     background-color: #1856b3;
     outline: 0;
     border: none;
-    font-size: 25px;
+    font-size: 23px;
     color: #FFFF;
 }
 .naAdd:hover {
@@ -42,18 +42,19 @@
     align-items: center;
 }
 .cat {
-    color: gray;
+    color: #b9bcbe;
 }
 .nav > div {
     height: 25px;
 }
 .nav > div:first-child {
     height: 27px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .iconChevronRigth {
-    height: 17px;
+    height: 26px;
+    padding: 4px;
 }
 .naOnglet {
     display: flex;
@@ -62,4 +63,6 @@
 }
 .naOnglet > a {
     margin-left: 14px;
+    font-size: 0.95rem;
+    font-weight: 500;
 }
