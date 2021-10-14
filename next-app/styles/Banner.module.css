@@ -1,0 +1,63 @@
+.naBanner {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.search {
+    width: 400px;
+    height: 10px;
+    border-radius: 20px;
+    border : none;
+    background-color: #f0f4f9;
+    padding: 25px;
+    outline: 0;
+    padding-left: 45px;
+}
+.profile {
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+}
+.UserProfile{
+    display: flex;
+    align-items: center;
+    
+}
+.btnSearch {
+    position: absolute;
+    margin-left: 10px;
+}
+.notif {
+    height: 5px;
+    margin-right: 20px;
+}
+.notif > svg {
+    height: 18px;
+}
+.naDate {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.UserProfile > a {
+    margin-top: 0;
+}
+.UserProfile > b {
+    margin-top: -8px;
+}
+.naDate > a {
+    margin-top: 0;
+    padding-top: 17px;
+    margin-left: 17px;
+
+}
+.UserMainBtn {
+    height: 2px;
+}
+.UserMainBtn > svg{
+    height: 18px;
+
+}
