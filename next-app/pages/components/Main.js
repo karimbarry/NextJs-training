@@ -1,9 +1,10 @@
 import Image from 'next/image'
 import { IconlyProvider, Home, Notification, Folder, Bookmark, Setting, TimeCircle, Logout } from 'react-iconly'
 import vid from '../components/BL.png'
+import style from '../../styles/Main.module.css'
 function Main () {
     return (
-        <div className='na-main'> 
+        <div className={style.naMain}> 
             <Image src={vid} />
             
             <a href='#'>

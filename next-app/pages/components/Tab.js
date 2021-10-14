@@ -10,26 +10,22 @@ function Tab () {
         </div>
         <div className={style.naNav}>
            <nav className={style.nav}>
-               <div><Category className={style.cat}/> </div>
-               <div><a href='#'>All Projects</a></div>
+               <div  className={style.naOnglet}><Category className={style.cat}/><a href='#'>All Projects</a> </div>
                <div><ChevronRight/></div>
                
             </nav>
             <nav className={style.nav}>
-               <div><Filter className={style.cat}/> </div>
-               <div><a href='#'>Pinneds</a></div>
+               <div className={style.naOnglet}><Filter className={style.cat}/><a href='#'>Pinneds</a> </div>
                <div><ChevronRight/></div>
                
             </nav>
             <nav className={style.nav}>
-               <div><Graph className={style.cat}/> </div>
-               <div><a href='#'>In process</a></div>
+               <div className={style.naOnglet}><Graph className={style.cat}/> <a href='#'>In process</a></div>
                <div><ChevronRight/></div>
                
             </nav>
             <nav className={style.nav}>
-               <div><ShieldDone className={style.cat}/> </div>
-               <div><a href='#'>Done</a></div>
+               <div className={style.naOnglet}><ShieldDone className={style.cat}/> <a href='#'>Done</a></div>
                <div><ChevronRight/></div>
                
             </nav>
