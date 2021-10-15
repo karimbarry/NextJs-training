@@ -1,41 +1,40 @@
 import Image from 'next/image'
 import { IconlyProvider, Home, Notification, Folder, Bookmark, Setting, TimeCircle, Logout } from 'react-iconly'
-import vid from '../components/BL.png'
-import style from '../../styles/Main.module.css'
+import vid from '../public/Assets/BL.png'
+import style from '../styles/Main.module.css'
 function Main () {
     return (
-        <div className={style.naMain}> 
-            <Image src={vid} />
-            
+        <div className={style.na_sideBar_container}> 
+            <a href='#' className={style.logo_app}><h1>.L</h1></a>
             <a href='#'>
                 <Home   
                  set="light"
-                primaryColor='#a6afff'/>
+                className={style.icon_color}/>
              </a>
              <a href='#'>
                 <Folder   
                  set="light"
-                primaryColor='#a6afff'/>
+                className={style.icon_color}/>
              </a>
              <a href='#'>
                 <TimeCircle
                  set="light"
-                primaryColor='#FFF'/>
+                className={style.icon_color}/>
              </a>
              <a href='#'>
                 <Bookmark
                  set="light"
-                primaryColor='#a6afff'/>
+                className={style.icon_color}/>
              </a> 
              <a href='#'>
                 <Setting
                  set="light"
-                primaryColor='#a6afff'/>
+                className={style.icon_color}/>
              </a>
              <a href='#'>
                 <Logout
                  set="light"
-                primaryColor='#a6afff'/>
+                className={style.icon_color}/>
              </a>
              
         </div>

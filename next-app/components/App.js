@@ -7,7 +7,7 @@ function App(){
        <Main />
        <Tab />
        <section className='na-body-container' >
-            <Banner/>
+            <Banner />
             <Body/>
         </section>
        </div> 

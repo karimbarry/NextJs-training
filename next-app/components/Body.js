@@ -1,4 +1,4 @@
-import style from '../../styles/Body.module.css'
+import style from '../styles/Body.module.css'
 function Body() {
     return <div className={style.naContainerTimeViewer}>
         <div>
