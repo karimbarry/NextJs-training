@@ -3,8 +3,11 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 45px;
+
 }
+
 .na_banner_search_input {
     width: 400px;
     height: 10px;
@@ -37,18 +40,28 @@
 .na_banner_notifIcon > svg {
     height: 18px;
 }
+.na_banner_notifIcon > svg:hover {
+    transform: scale(1.2);
+}
 .na_banner_set_date {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.naDana_banner_set_date > a {
-    margin-left: 15px;
+.na_banner_set_date > svg {
+    margin-right: 10px;
+    height: 20px;
 
 }
+.na_banner_set_date > a{
+    padding: 5px;
+}
 .na_banner_User_chevron {
-    height: 15px;
+    height: 18px;
 }
 .na_banner_User_chevron > svg{
     height: 18px;
+}
+.na_banner_User_chevron > svg:hover{
+    transform: rotate(-90deg);
 }

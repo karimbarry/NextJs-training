@@ -7,6 +7,7 @@
 }
 .na_navigation_title {
     font-size: 1.3em;
+    padding: 0 10px;
 }
 .na_navigation_Elt{
     height: 100px;
@@ -16,9 +17,10 @@
 .na_navigation_button {
     height: 28px;
     width: 28px;
-    margin-left: 110px;
+    margin-left: 70px;
     border-radius: 50%;
     background-color: #1856b3;
+    transition-duration: 0.4s;
     outline: 0;
     border: none;
     font-size: 23px;
@@ -35,6 +37,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px;
 }
 .cat {
     color: #b9bcbe;

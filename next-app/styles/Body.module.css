@@ -1,6 +1,131 @@
 .naContainerTimeViewer {
     display: flex;
-    justify-content: space-around;
-    flex-direction: column;
+    height: 100%;
+    padding: 8px 45px;
+    
+}
+.naContainerTimeViewer > hr {
+    height: 95%;
+    border: 1px solid #ebecf0;
+}
+.na_Body_view1_add_userButton{
+    height: 35px;
+    width: 170px;
+    border-radius: 15px;
+    background-color: inherit;
+    outline: 0;
+    border: 1px solid #ebecf0;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    transition-duration: 0.4s;
+    justify-content: center;
 
+}
+.na_Body_view1_add_userButton:hover {
+    cursor: pointer;
+    transition-duration: 0.4s;
+    transform: scale(1.1);
+}
+.na_Body_view1_add_icon{
+    height: 18px;
+    margin-right: 10px;
+    color: #1856b3;
+}
+.na_Body_view1_imgs {
+    display: flex;
+}
+.na_Body_view1_imgs > .img {
+    margin-left: -12px;
+    width: 30px;
+}
+.na_Body_view1_imgs > .img:nth-child(1) {
+  margin-left: 0px;
+}
+
+.na_Body_view1 {
+    display: flex;
+    width: 58%;
+    flex-direction: column;
+}
+
+.na_Body_view1_imgs {
+    margin-right: 20px;
+}
+.na_Body_view1_timeSheet{
+    padding-right: 42px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 100%;
+}
+.na_Body_view1_timeSheetHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+}
+.na_Body_view1_timeSheetBody > div{
+    height: 28px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #ebecf1;
+    display: flex;
+    align-items: center;
+}
+.na_Body_view1_timeSheetBody > div > svg path{
+    stroke: currentcolor;
+    stroke-linecap: butt;
+    stroke-linejoin: square;
+}
+.na_Body_view1_timeSheetBody > div > svg {
+    margin-top: -5px;
+}
+.na_Body_view1_timeSheetBody > div > a{
+    padding: 0 10px;
+    font-size: 14px;
+}
+.na_Body_view1_container{
+    display: flex;
+    
+}
+.na_Body_view1_Task{
+    display: flex;
+}
+.na_Body_view1_AllTask{
+    height: 30px;
+    width: 75px;
+    border-radius: 10px;
+    background-color: inherit;
+    outline: 0;
+    border: 1px solid #ebecf1;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    transition-duration: 0.4s;
+    justify-content: center;
+    background-color: #f0f4f9;
+    font-family: 'ElMessiri', sans-serif;
+}
+.na_Body_view1_MyTask{
+    height: 30px;
+    width: 75px;
+    background-color: inherit;
+    outline: 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-family: 'ElMessiri', sans-serif;
+    color: #b9bcbe;
+    transition-duration: 0.4s;
+}
+.na_Body_view1_MyTask:hover {
+    color: inherit;
+}
+.na_Body_view2 {
+    display: flex;
+    width: 42%;
+    border-left: 1px solid #ebecf1;
 }

@@ -1,11 +1,24 @@
+@font-face {
+  font-family: 'BelleFair';
+  src: url('../public/Assets/Polices/Bellefair-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'ElMessiri';
+  src: url('../public/Assets/Polices/ElMessiri-VariableFont_wght.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html,body {
   padding: 0;
   margin: 0;
- background-color: hsl(200deg 33% 98%);
- height: 100%;
+  background-color: hsl(200deg 33% 98%);
+  height: 100%;
+  font-family: 'ElMessiri', sans-serif;
+  
 }
 
-a {
+a,h1,body {
   color: inherit;
   text-decoration: none;
 }
@@ -24,4 +37,20 @@ a {
   width: 100%;
   display: flex;
   flex-direction: column;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+button:hover {
+  cursor: pointer;
+  transition-duration: 0.3s;
+  transform: scale(1.1);
+}
+input[type="radio" i]{
+  cursor: pointer;
+  height: 15px;
+  margin-top: -5px;
 }

@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import { IconlyProvider, Home, Notification, Folder, Bookmark, Setting, TimeCircle, Logout } from 'react-iconly'
-import vid from '../public/Assets/BL.png'
 import style from '../styles/Main.module.css'
 function Main () {
     return (

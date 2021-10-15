@@ -32,7 +32,7 @@ function Banner () {
                 <a href='#' className={style.na_banner_notifIcon}><Notification/></a>
                 <div  className={style.na_banner_UserProfile_img}><Image src={logo}/></div>
                 
-                <b>Julien Pablo</b>
+                <a href='#'>Julien Pablo</a>
                 <a href="#" className={style.na_banner_User_chevron}><ChevronDown /></a>
                 
             </nav>
