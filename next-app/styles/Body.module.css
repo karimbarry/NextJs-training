@@ -9,8 +9,8 @@
     border: 1px solid #ebecf0;
 }
 .na_Body_view1_add_userButton{
-    height: 35px;
-    width: 170px;
+    height: auto;
+    width: auto;
     border-radius: 15px;
     background-color: inherit;
     outline: 0;
@@ -20,6 +20,12 @@
     align-items: center;
     transition-duration: 0.4s;
     justify-content: center;
+
+}
+.na_tasks_process > .img {
+    margin-top: 5px;
+    width: 22px;
+    margin-left: 8px;
 
 }
 .na_Body_view1_add_userButton:hover {
@@ -66,25 +72,75 @@
     margin-top: 15px;
     width: 100%;
 }
-.na_Body_view1_timeSheetBody > div{
+.na_Body_view1_timeSheetBody > .na_tasks{
     height: 28px;
     margin-bottom: 8px;
     border-bottom: 1px solid #ebecf1;
     display: flex;
     align-items: center;
 }
-.na_Body_view1_timeSheetBody > div > svg path{
+.na_tasks_process{
+    display: flex;
+    align-items: center;
+}
+.na_tasks_process > .process{
+    height: 2px;
+    width: 90px;
+    background-color: #b9bcbe;
+    margin-right: 20px;
+ 
+}
+.na_tasks_process > .time{
+    font-size: 13px;
+    color: #b9bcbe;
+}
+.na_tasks_process > .process > .progress{
+    height: 2px;
+    width: 70%;
+    background-color: #1856b3;
+}
+
+.na_Body_view1_timeSheetBody > .na_tasks > svg path{
     stroke: currentcolor;
     stroke-linecap: butt;
     stroke-linejoin: square;
 }
-.na_Body_view1_timeSheetBody > div > svg {
+.na_Body_view1_timeSheetBody > .na_tasks {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.na_Body_view1_timeSheetBody > .na_tasks > .na_tasks_descrip > svg {
     margin-top: -5px;
 }
-.na_Body_view1_timeSheetBody > div > a{
+.na_Body_view1_timeSheetBody > .na_tasks > .na_tasks_descrip > a{
     padding: 0 10px;
-    font-size: 14px;
+    font-size: 15px;
 }
+.na_Body_view1_timeSheetBody > .na_tasks > .na_tasks_descrip > div {
+    height: 5.5px;
+    width: 5.5px;
+    border-radius: 50%;
+    background-color: #1856b3;
+    margin-top: -1px;
+}
+.na_play{
+    height: 19px;
+    margin-top: -3px;
+    margin-left: 8px;
+    
+}
+.na_play path{
+    fill: #ebecf0;
+    stroke: rgb(151, 149, 149);
+    
+}
+.na_Body_view1_timeSheetBody > .na_tasks > .na_tasks_descrip {
+    display: flex;
+    align-items: center;
+}
+
 .na_Body_view1_container{
     display: flex;
     
@@ -93,8 +149,8 @@
     display: flex;
 }
 .na_Body_view1_AllTask{
-    height: 30px;
-    width: 75px;
+    height: auto;
+    width: auto;
     border-radius: 10px;
     background-color: inherit;
     outline: 0;
@@ -108,8 +164,8 @@
     font-family: 'ElMessiri', sans-serif;
 }
 .na_Body_view1_MyTask{
-    height: 30px;
-    width: 75px;
+    height: auto;
+    width: auto;
     background-color: inherit;
     outline: 0;
     font-size: 14px;

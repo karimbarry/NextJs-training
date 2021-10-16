@@ -1,5 +1,5 @@
 import style from '../styles/Body.module.css'
-import {AddUser, ShieldDone} from 'react-iconly'
+import {AddUser, ShieldDone, Play} from 'react-iconly'
 import Image from 'next/image'
 import img1 from '../public/Assets/5.png'
 import img2 from '../public/Assets/1.png'
@@ -32,19 +32,45 @@ function Body() {
                     </div>
                 </div>
                 <div className ={style.na_Body_view1_timeSheetBody}>
-                        <div> 
-                            <ShieldDone/>
-                            <a> E-commerce integration</a>
+                    <div className={style.na_tasks}> 
+                      <div className={style.na_tasks_descrip}>
+                        <ShieldDone/>
+                        <a> E-commerce integration </a>
+                        <div></div>
+                      </div>
+                      <div className={style.na_tasks_process}>
+                        <div className={style.process}>
+                            <div className={style.progress}></div>
                         </div>
-                        <div>
-                            <ShieldDone/>
-                            <a> Illustration for dribbble</a></div>
-                        <div> 
-                            <ShieldDone/>
-                            <a> Design system update</a></div>
-                        <div> 
-                            <ShieldDone/>
-                            <a> E-commerce integration</a></div>
+                        <div className={style.time}>
+                            <a>00:25:15</a>
+                            
+                        </div>
+                       <Play className={style.na_play}/>
+                       <div className={style.img}><Image src={img3}/></div> 
+                       <img5/>
+                      </div>
+                    </div>
+                 
+                <div className={style.na_tasks}>
+                    <div className={style.na_tasks_descrip}>
+                    <ShieldDone/>
+                    <a> Illustration for dribbble</a>
+                    </div>
+                </div>
+
+                <div className={style.na_tasks}> 
+                    <div className={style.na_tasks_descrip}>
+                    <ShieldDone/>
+                    <a> Design system update</a>
+                    </div>
+                </div>
+                <div className={style.na_tasks}> 
+                    <div className={style.na_tasks_descrip}>
+                    <ShieldDone/>
+                    <a> E-commerce integration</a>
+                    </div>
+                </div>
                 </div>
             </div>
  
