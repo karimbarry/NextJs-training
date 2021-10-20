@@ -1,7 +1,21 @@
-import {Graph, ChevronRight, Category,Filter,ShieldDone} from 'react-iconly'
+import { Archive, CheckCircle, ChevronRight, Paperclip, PieChart, Plus } from 'react-feather'
 import style from '../styles/Tab.module.css'
+const Sublink = ({icon, text, children}) => {
+    return <button className={style.na_navigation_link}>
+        <div className={style.na_navigation_link_elt}>
+            <div className={style.na_navigation_link_description}>
+            {icon} <a href='#'>{text}</a> 
+            </div>
+                <ChevronRight className={style.iconChevronRigth}/>
+        </div>
 
-function Tab () {
+        <div className={style.list__deroulante}>
+            {children}
+        </div>
+    </button>
+        
+}
+const Tab = () => {
     return <div className={style.na_navigation}>
         <div className={style.na_navigation_Elt}>
             <h1 className={style.na_navigation_title}>Projects</h1>
@@ -9,26 +23,10 @@ function Tab () {
 
         </div>
         <div className={style.na_navigation_link_container}>
-           <nav className={style.na_navigation_link}>
-               <div  className={style.na_navigation_link_description}><Category className={style.cat}/><a href='#'>All Projects</a> </div>
-               <div><ChevronRight className={style.iconChevronRigth}/></div>
-               
-            </nav>
-            <nav className={style.na_navigation_link}>
-               <div className={style.na_navigation_link_description}><Filter className={style.cat}/><a href='#'>Pinneds</a> </div>
-               <div><ChevronRight className={style.iconChevronRigth}/></div>
-               
-            </nav>
-            <nav className={style.na_navigation_link}>
-               <div className={style.na_navigation_link_description}><Graph className={style.cat}/> <a href='#'>In process</a></div>
-               <div><ChevronRight className={style.iconChevronRigth}/></div>
-               
-            </nav>
-            <nav className={style.na_navigation_link}>
-               <div className={style.na_navigation_link_description}><ShieldDone className={style.cat}/> <a href='#'>Done</a></div>
-               <div><ChevronRight className={style.iconChevronRigth}/></div>
-               
-            </nav>
+            <Sublink icon={<Archive className={style.cat}/>} text="All project"/>
+            <Sublink icon={<Paperclip className={style.cat}/>} text="Pinneds"/>
+            <Sublink icon={<PieChart className={style.cat}/>} text="In process"/>
+            <Sublink icon={<CheckCircle className={style.cat}/>} text="Done"/>
         </div>
     </div>
 }

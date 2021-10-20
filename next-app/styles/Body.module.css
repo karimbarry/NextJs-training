@@ -22,11 +22,14 @@
     justify-content: center;
 
 }
-.na_tasks_process > .img {
+.img {
     margin-top: 5px;
-    width: 22px;
-    margin-left: 8px;
+    width: 25px;
 
+}
+.userControl{
+    display: flex;
+    align-items: center;
 }
 .na_Body_view1_add_userButton:hover {
     cursor: pointer;
@@ -74,30 +77,30 @@
 }
 .na_Body_view1_timeSheetBody > .na_tasks{
     height: 28px;
-    margin-bottom: 8px;
     border-bottom: 1px solid #ebecf1;
     display: flex;
     align-items: center;
 }
+.time{
+    font-size: 13px;
+    color: #b9bcbe;
+    margin-left: 15px;
+}
+.na_Body_view1_timeSheetBody > .na_tasks:nth-child(3){
+    border-radius: 10px;
+    background-color: #FFF;
+    transform: scale(1.08);
+    padding: 0 17px;
+    box-shadow: 2px 7px 17px -10px rgba(0,0,0,0.35);
+}
+
 .na_tasks_process{
     display: flex;
     align-items: center;
 }
-.na_tasks_process > .process{
-    height: 2px;
-    width: 90px;
-    background-color: #b9bcbe;
-    margin-right: 20px;
- 
-}
-.na_tasks_process > .time{
-    font-size: 13px;
-    color: #b9bcbe;
-}
-.na_tasks_process > .process > .progress{
-    height: 2px;
-    width: 70%;
-    background-color: #1856b3;
+
+.na_tasks_process {
+    width: 200px;
 }
 
 .na_Body_view1_timeSheetBody > .na_tasks > svg path{
@@ -109,6 +112,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    height: 50px;
 }
 
 .na_Body_view1_timeSheetBody > .na_tasks > .na_tasks_descrip > svg {
@@ -143,7 +147,6 @@
 
 .na_Body_view1_container{
     display: flex;
-    
 }
 .na_Body_view1_Task{
     display: flex;
@@ -184,4 +187,81 @@
     display: flex;
     width: 42%;
     border-left: 1px solid #ebecf1;
+}
+.na_Body_view2_container{
+    width: 100%;
+    padding-left: 42px;
+
+}
+.na_Body_view2_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.na_Body_view2_Time {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid #ebecf1;
+
+}
+.na_Body_view2_Time > .time {
+    font-size: 35px;
+    color: black;
+}
+.na_Body_view2_Time > .title {
+    color: #b9bcbe;
+}
+
+
+.na_Body_view2_Time > div {
+    margin-bottom: 30px;
+}
+.actionNumber {
+    color: #b9bcbe;
+    font-size: 18px;
+}
+.actionHeader{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.actionHeader > button {
+    width: 90px;
+}
+.actionListUsers {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.actionUser {
+    display: flex;
+    width: 100%;
+
+}
+.actionProfile{
+    width: 28px;
+}
+.USerInfo{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.USerInfo > p {
+    font-size: 13px;
+    margin: 0;
+    color: #b9bcbe;
+}
+.USerInfoTask{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    border-bottom: 1px solid #ebecf1;
+    justify-content: space-between;
+}
+.tim {
+    font-size: 14px;
 }

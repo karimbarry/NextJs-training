@@ -1,9 +1,9 @@
 import {useState} from 'react'
-import {Search, Notification, Calendar, ChevronDown} from 'react-iconly'
+import {Search, Bell, Calendar, ChevronDown} from 'react-feather'
 import Image from 'next/image'
 import style from '../styles/Banner.module.css'
 import logo from '../public/Assets/5.png'
-function Banner () {
+const Banner = () => {
     const [inputValue, setInputValue] = useState('')
 
 	function handleInput(e) {
@@ -29,7 +29,7 @@ function Banner () {
             </nav>
             
             <nav className={style.na_banner_UserProfile}>
-                <a href='#' className={style.na_banner_notifIcon}><Notification/></a>
+                <a href='#' className={style.na_banner_notifIcon}><Bell/></a>
                 <div  className={style.na_banner_UserProfile_img}><Image src={logo}/></div>
                 
                 <a href='#'>Julien Pablo</a>
