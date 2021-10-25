@@ -30,7 +30,6 @@ a,h1,body {
   height: 100%;
 }
 .na-container{
-  height: 100%;
   display: flex;
 }
 .na-body-container{
@@ -46,9 +45,4 @@ ul {
 }
 button:hover {
   cursor: pointer;
-}
-input[type="radio" i]{
-  cursor: pointer;
-  height: 15px;
-  margin-top: -5px;
 }

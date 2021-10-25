@@ -1,6 +1,5 @@
 .na_sideBar_container{
-    height: 100%;
-    width: 150px;
+    width: 120px;
     background-color: #1856b3;
     display: flex;
     flex-direction: column;

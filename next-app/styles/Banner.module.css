@@ -34,11 +34,22 @@
     margin-left: 10px;
 }
 .na_banner_notifIcon {
+    position: relative;
     height: 17px;
     margin-right: 20px;
 }
 .na_banner_notifIcon > svg {
     height: 18px;
+}
+.na_banner_notifIcon::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    height: 6px;
+    width: 6px;
+    right: 4.5px;
+    border-radius: 50%;
+    background-color: #f1cb81;
 }
 .na_banner_notifIcon > svg:hover {
     transform: scale(1.2);

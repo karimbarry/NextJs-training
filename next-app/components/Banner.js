@@ -3,6 +3,9 @@ import {Search, Bell, Calendar, ChevronDown} from 'react-feather'
 import Image from 'next/image'
 import style from '../styles/Banner.module.css'
 import logo from '../public/Assets/5.png'
+const Date = ({date = '15 may - 23 june'}) => {
+   return <a href='#'>{date}</a>
+}
 const Banner = () => {
     const [inputValue, setInputValue] = useState('')
 
@@ -25,7 +28,7 @@ const Banner = () => {
             </nav>
             <nav className={style.na_banner_set_date}>
                 <Calendar/>
-                <a href='#'>15 may - 23 june</a>
+                <Date/>
             </nav>
             
             <nav className={style.na_banner_UserProfile}>

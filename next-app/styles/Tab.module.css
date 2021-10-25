@@ -1,4 +1,5 @@
 .na_navigation{
+    position: relative;
     width: 330px;
     background-color: #FFFF;
     display: flex;
